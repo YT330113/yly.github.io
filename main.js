@@ -19,7 +19,7 @@ function setUserName() {
       setUserName();
     } else {
       localStorage.setItem('name', myName);
-      myHeading.textContent = '蛮球 酷毙了，' + myName;
+      myHeading.textContent = '爱蛮球 酷毙了，' + myName;
     }
   }
   
